@@ -12,21 +12,29 @@
 	<title>Welcome to Yusef Graphics</title>
 	<style>
 
+		:root {
+			--color-background: #111;
+			--color-text-subtle: #ccc;
+			--font-family: -apple-system, Helvetica, sans-serif;
+			--font-weight: 600;
+
+		}
+
 		*{
 			box-sizing:border-box;
 		}
 
-		body {margin: 5% auto; background: #dddddd; color: #222222; 
+		body {margin: 5% auto; background: var(--color-background); color: var(--color-text-subtle); 
 			  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-			  font-size: 16px; 
-			  line-height: 1.8; 
-			  text-shadow: 0 1px 0 #222222; 
+			  font-size: 18px; 
+			  line-height: 1.7; 
 			  max-width: 73%;
+			  font-weight:var(--font-weight);
 			}
-
+		li { list-style: none;}
         code {background: white;}
 
-        a {border-bottom: 1px solid #222222; color: #222222;  text-decoration: none;}
+        a {border-bottom: 1px solid var(--color-text-subtle); color: var(--color-text-subtle);  text-decoration: none;}
 
         a:hover {border-bottom: 0;}
 
@@ -35,14 +43,43 @@
 	</head>
 
 	<body>
-		<header>
-			<h1><a class="heading" href="https://yusefgraphics.neocities.org/">Yusef Graphics</a></h1>
-		</header>
-		
+
 		<section>
+			<article>
+				<h2>Introduction (2024)</h2>
+				<p>Five years ago I created this page with the headline:</p>
+				<q>This website is the beginning of what I hope will be a life long habit of creating
+				digital creative content that stands the test of time. Here is where I will link out to all my
+				design related content online. I don't want to give too much away and my plans will change as
+				I learn more.</q>
+
+			</article>
+
+			<br>
+			<hr>
+			
+			
 
 			<article>
-				<h2>Main Navigation</h2>
+
+
+            <h2>Some of My Shaders</h2>
+			<iframe style="padding:5px;" width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/flcyW2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+			<iframe style="padding:5px;" width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/Mt33W2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+			<iframe style="padding:5px;" width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/Xlc3D2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+				
+			<p>
+				Btw: Do you wanna know how I got shaders to display like this? It's from shadertoy. 
+				Just go to a shader and under the shader canvas you'll see the fork symbol, 
+				a plus symbol and then this "&lt &gt" click on "&lt &gt" and 
+				it will give you the iframe code to paste in to your html.
+			</p>
+			</article>
+
+			<br>
+			<hr>
+			<article>
+				<h2>My Profiles</h2>
 
 				<nav>			
 					<ul>
@@ -53,36 +90,17 @@
 			<br>
           	<hr>
 			<article>
-				<h2>Introduction (2023)</h2>
-				<p>Four years ago I wrote this page with this headline:</p>
-				<q>This website is the beginning of what I hope will be a life long habit of creating
-				digital creative content that stands the test of time. Here is where I will link out to all my
-				design related content online. I don't want to give too much away and my plans will change as
-				I learn more.</q>
-				<p>...and pretty much walked away until now.</p>
-				<p>Hi. My name is Yusef and I create art with from math and graphics programming techniques.</p>
-			</article>
 
-			<br><br>
-			<hr>
-			<article>
+				<h2>Useful Links To Learn More</h2>
 
+				<ul>
+					<li><a href="https://thebookofshaders.com/">https://thebookofshaders.com/</a></li>
+					<li><a href="https://shadertoyunofficial.wordpress.com/">https://shadertoyunofficial.wordpress.com/</a></li>
+					<li><a href="https://blog.demofox.org/">https://blog.demofox.org/</a></li>
+					<li><a href="https://iquilezles.org/">https://iquilezles.org/</a></li>
+				
+				</ul>
 
-            <h2><b>My Shaders</b></h2>
-			<iframe style="padding:5px;" width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/flcyW2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
-			<iframe style="padding:5px;" width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/Mt33W2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
-		    <p>
-				Do you wanna know how I got shaders to display like this? It's from shadertoy. 
-				Just go to a shader and under the shader canvas you'll see the fork symbol, 
-				a plus symbol and then this "&lt &gt" click on "&lt &gt" and 
-				it will give you the iframe code to paste in to your html.
-			</p>
-		</article>
-
-			<br><br>
-			<hr>
-			<p>To learn more, check out: <a href="https://thebookofshaders.com/">https://thebookofshaders.com/</a></p>
-			
 			</article>
 
 		</section>
